@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/script.css" rel="stylesheet">
+    
+    <title>Converter</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div class="convert-box">
+         <label>ENTER NUMBER TO BE CONVERTED</label>
+         <input name="input" id="num" type="number" >
+         <label>CONVERT FROM</label>
+         <button id="d" class="from">DECIMAL</button>
+         <button id="h" class="from">HEXADECIMAL</button>
+         <button id="b" class="from">BINARY</button>
+         <button id="o" class="from">OCTAL</button>
+
+         <label>CONVERT TO</label>
+         <button id="d" class="to">DECIMAL</button>
+         <button id="h" class="to">HEXADECIMAL</button>
+         <button id="b" class="to">BINARY</button>
+         <button id="o" class="to">OCTAL</button>
+       <button id="convert" class="convert">CONVERT</button>
+     
+     </div> 
+    <div id="output"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

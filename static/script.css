@@ -1,0 +1,60 @@
+.convert-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.convert-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.convert-box input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.convert-box .from,
+.convert-box .to,
+.convert-box .convert {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.convert-box .convert {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.convert-box .convert:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.btn:active {
+    transform: translateY(2px); /* Move the button down by 2 pixels when pressed */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a slight shadow effect */
+    background-color: green; /* Change the background color to green when pressed */
+  }
+  
+  
